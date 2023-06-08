@@ -46,9 +46,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => 'beytw25ay0hef9rcvw78-mysql.services.clever-cloud.com,'//env('DB_HOST', '127.0.0.1'),
-            'port' => '20669',//env('DB_PORT', '3306'),
-            'database' => 'beytw25ay0hef9rcvw78',//env('DB_DATABASE', 'forge'),
+            'host' => 'beytw25ay0hef9rcvw78-mysql.services.clever-cloud.com',
+            'port' => '20669',
+            'database' => 'beytw25ay0hef9rcvw78',
             'username' => 'upcxvs9exbu4eawn',//env('DB_USERNAME', 'forge'),
             'password' => 'maoOcy6YFmg9JzLPKEf',//env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
